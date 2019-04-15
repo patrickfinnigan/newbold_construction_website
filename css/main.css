@@ -2556,7 +2556,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991.98px) {
   .single-service {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
 }
 
