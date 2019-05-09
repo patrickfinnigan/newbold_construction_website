@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
     <header id="header" id="home">
@@ -688,6 +689,7 @@
                 class="common-input mb-20 form-control"
                 required=""
                 type="text"
+                id="name"
               />
 
               <input
@@ -699,6 +701,7 @@
                 class="common-input mb-20 form-control"
                 required=""
                 type="email"
+                id="email"
               />
 
               <input
@@ -709,6 +712,7 @@
                 class="common-input mb-20 form-control"
                 required=""
                 type="text"
+                id="subject"
               />
             </div>
             <div class="col-lg-6 form-group">
@@ -719,8 +723,9 @@
                 onfocus="this.placeholder = ''"
                 onblur="this.placeholder = 'Messege'"
                 required=""
+                id="message"
               ></textarea>
-              <button class="primary-btn mt-20">
+              <button class="primary-btn mt-20" id="sendButton">
                 Send Message<span class="lnr lnr-arrow-right"></span>
               </button>
               <div class="mt-10 alert-msg"></div>
@@ -805,5 +810,6 @@
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
+    <script src= "js/contact.js"></script>
   </body>
 </html>
