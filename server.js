@@ -18,7 +18,7 @@ app.post("/contact", function(req, res) {
   const { name, email, subject, message } = req.body;
   sgMail.setApiKey(process.env.SEND_GRID_API);
   const msg = {
-    to: "patrickfinnigan94@gmail.com",
+    to: "newboldconstructionwebapp@gmail.com",
     from: email,
     subject: subject,
     text: message,
