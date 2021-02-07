@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
-import BrandLogoSlider from '../components/BrandLogoSlider';
+// import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 class Projects extends Component{
@@ -78,7 +78,7 @@ class Projects extends Component{
                                     </div>
                                 </div>
                             </div>
-                            <div className="row section-space--top--60">
+                            {/* <div className="row section-space--top--60">
                                 <div className="col">
                                     <ul className="page-pagination">
                                         <li><a href="/"><i className="fa fa-angle-left" /> Prev</a></li>
@@ -88,7 +88,7 @@ class Projects extends Component{
                                         <li><a href="/"><i className="fa fa-angle-right" /> Next</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/*Projects section end*/}
@@ -98,7 +98,7 @@ class Projects extends Component{
 
                 
                 {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
+                {/* <BrandLogoSlider background = "grey-bg" /> */}
 
                 {/* Footer */}
                 <Footer/>

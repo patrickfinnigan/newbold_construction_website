@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
-import FeatureIcon from '../components/FeatureIcon';
-import Funfact from '../components/Funfact';
-import TeamMemberGrid from '../components/TeamMemberGrid';
-import TestimonialSlider from '../components/TestimonialSlider';
-import BrandLogoSlider from '../components/BrandLogoSlider';
+// import FeatureIcon from '../components/FeatureIcon';
+// import Funfact from '../components/Funfact';
+// import TeamMemberGrid from '../components/TeamMemberGrid';
+// import TestimonialSlider from '../components/TestimonialSlider';
+// import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 import ModalVideo from 'react-modal-video'
@@ -70,7 +70,7 @@ class About extends Component{
                         <h1>50 Years of Experience in Industry</h1>
                         <h4>We are ready to build your dream home Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, beatae.</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repudiandae odit dolorum quis laudantium impedit beatae perferendis natus, hic libero sed atque quibusdam possimus error, voluptate est molestiae doloremque necessitatibus illum rerum sunt! Ad sunt obcaecati voluptatem sint sequi quos, qui non deleniti a praesentium, sapiente accusantium odit.</p>
-                        <a href="services" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Our Services</a>
+                        {/* <a href="services" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Our Services</a> */}
                         </div>
                     </div>
                     </div>
@@ -79,7 +79,7 @@ class About extends Component{
                 {/*About section end*/}
                 
                 {/* Feature Icon */}
-                <FeatureIcon background = "grey-bg"/>
+                {/* <FeatureIcon background = "grey-bg"/> */}
 
                 {/*About section start*/}
                 <div className="about-section section-space--inner--120">
@@ -113,16 +113,16 @@ class About extends Component{
                 {/*About section end*/}
                 
                 {/* Fun fact */}
-                <Funfact/>
+                {/* <Funfact/> */}
                 
                 {/* Team member */}
-                <TeamMemberGrid/>
+                {/* <TeamMemberGrid/> */}
                 
                 {/* Testimonial Slider */}
-                <TestimonialSlider/>
+                {/* <TestimonialSlider/> */}
                 
                 {/* Brand logo */}
-                <BrandLogoSlider background = "" />
+                {/* <BrandLogoSlider background = "" /> */}
 
                 </div>
 

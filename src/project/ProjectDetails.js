@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
-import BrandLogoSlider from '../components/BrandLogoSlider';
+// import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 import PhotoGallery from './components/PhotoGallery';
@@ -45,13 +45,13 @@ class Projects extends Component{
                             <div className="project-information">
                                 <h3>Project Information</h3>
                                 <ul>
-                                    <li><strong>Client:</strong> <a href="project-details">RRS Company</a></li>
+                                    {/* <li><strong>Client:</strong> <a href="project-details">RRS Company</a></li> */}
                                     <li><strong>Location:</strong> San Francisco</li>
                                     <li><strong>Area(sf):</strong> 550,000 sf</li>
                                     <li><strong>Year:</strong> 2019</li>
                                     <li><strong>Budget:</strong> $245000000</li>
                                     <li><strong>Architect:</strong> Scott &amp; Austin</li>
-                                    <li><strong>Sector:</strong> <a href="project-details">Tunnel</a>, <a href="project-details">Transport</a></li>
+                                    {/* <li><strong>Sector:</strong> <a href="project-details">Tunnel</a>, <a href="project-details">Transport</a></li> */}
                                 </ul>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ class Projects extends Component{
                 {/*====================  End of project details page content  ====================*/}
 
                 {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
+                {/* <BrandLogoSlider background = "grey-bg" /> */}
 
                 {/* Footer */}
                 <Footer/>
