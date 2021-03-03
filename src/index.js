@@ -4,9 +4,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import DemoIndex from './demo_page/Demo';
-import HomeOne from './HomeOne';
-import HomeTwo from './HomeTwo';
-import HomeThree from './HomeThree';
+import Home from './Home';
 import About from './pages/About';
 import Services from './service/Services';
 import ServiceDetailsLeftSidebar from './service/ServiceDetailsLeftSidebar';
@@ -23,21 +21,22 @@ import NoMAtch from './pages/404';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+import ProudyProjectDetails from './project/proudy_house/ProudyProjectDetails';
+
 class Root extends Component{
     render(){
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={DemoIndex}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-two`} component={HomeTwo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/home`} component={Home}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about-us`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/services`} component={Services}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details-left-sidebar`} component={ServiceDetailsLeftSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details-right-sidebar`} component={ServiceDetailsRightSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={Projects}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/project-details`} component={ProjectDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/proudy-project-details`} component={ProudyProjectDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`} component={BlogDetailsLeftSidebar}/>

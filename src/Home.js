@@ -7,7 +7,7 @@ import ProjectImageGallery from './components/ProjectImageGallery'
 import Footer from './components/Footer';
 import MobileMenu from './components/MobileMenu';
 
-class HomeThree extends Component{
+class Home extends Component{
     render(){
         
         return(
@@ -40,4 +40,4 @@ class HomeThree extends Component{
 }
 
 
-export default HomeThree;
+export default Home;
