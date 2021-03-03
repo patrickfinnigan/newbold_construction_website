@@ -3,7 +3,7 @@ import 'react-app-polyfill/stable';
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import DemoIndex from './demo_page/Demo';
+// import DemoIndex from './demo_page/Demo';
 import Home from './Home';
 import About from './pages/About';
 import Services from './service/Services';
@@ -28,7 +28,7 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={DemoIndex}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/home`} component={Home}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about-us`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/services`} component={Services}/>
