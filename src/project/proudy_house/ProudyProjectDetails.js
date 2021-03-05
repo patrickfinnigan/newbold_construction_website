@@ -19,11 +19,11 @@ class ProudyProjectDetails extends Component{
                         <div className="row">
                             <div className="col">
                                 <div className="page-banner text-center">
-                                    <h1>ProudyProjectDetails</h1>
+                                    <h1>Craftsman Style Home Throughout</h1>
                                     <ul className="page-breadcrumb">
                                         <li><a href="/">Home</a></li>
                                         <li><a href="projects">Project</a></li>
-                                        <li>ProudyProjectDetails</li>
+                                        <li>Craftsman Style Home Throughout</li>
                                     </ul>
                                 </div>
                             </div>

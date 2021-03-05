@@ -5,10 +5,27 @@ class PhotoGallery extends Component{
     render(){
         /* project gallery image list */
         const PROJECT_IMAGES = [
-            "proudy-house-1.jpg",
-            "proudy-house-2.jpg",
-            "proudy-house-3.jpg",
-            "proudy-house-4.jpg"
+            "proudy-house-01.jpg",
+            "proudy-house-02.jpg",
+            "proudy-house-03.jpg",
+            "proudy-house-04.jpg",
+            "proudy-house-05.jpg",
+            "proudy-house-06.jpg",
+            "proudy-house-07.jpg",
+            "proudy-house-08.jpg",
+            "proudy-house-09.jpg",
+            "proudy-house-10.jpg",
+            "proudy-house-11.jpg",
+            "proudy-house-12.jpg",
+            "proudy-house-13.jpg",
+            "proudy-house-14.jpg",
+            "proudy-house-15.jpg",
+            "proudy-house-16.jpg",
+            "proudy-house-17.jpg",
+            "proudy-house-18.jpg",
+            "proudy-house-19.jpg",
+            "proudy-house-20.jpg",
+            "proudy-house-21.jpg"
         ];
 
         const PhotoItem = ({ image, group }) => (
